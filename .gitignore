@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.*
 .yarn/*
@@ -11,11 +11,11 @@
 !.yarn/versions
 
 # testing
-/coverage
+coverage/
 
 # next.js
-/.next/
-/out/
+.next/
+out/
 
 # misc
 .DS_Store
@@ -38,28 +38,28 @@ yarn-error.log*
 
 # typescript
 next-env.d.ts
-/dist/
-/.wrangler/
-/.sites-runtime/
-/outputs/
-/work/
+dist/
+.wrangler/
+.sites-runtime/
+outputs/
+work/
 
 # local assistant/editor state (may contain credentials and command history)
-/.claude/
-/.cache/
-/.vite/
-/tmp/
+.claude/
+.cache/
+.vite/
+tmp/
 
 # generated datasets and local research caches
-/scripts/cache/
-/scripts/out/
-/public/siku/books/
-/public/siku/quotable-all/
-/public/worldlit/books/
+/code/scripts/cache/
+/code/scripts/out/
+/code/public/siku/books/
+/code/public/siku/quotable-all/
+/code/public/worldlit/books/
 
 # local build/typecheck artefacts and visual diagnostics
 *.tsbuildinfo
-/shot-*.png
-/english-compass-proof.png
-/enscan-tmp.mjs
-/shot-tmp.mjs
+shot-*.png
+english-compass-proof.png
+enscan-tmp.mjs
+shot-tmp.mjs
