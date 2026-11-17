@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+			<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+				<head>
+					<meta name="dtb:uid" content="https://zh.wikisource.org/wiki/%E6%BC%A2%E5%A7%86%E8%90%8A%E8%84%AB" />
+					<meta name="dtb:depth" content="1" />
+					<meta name="dtb:totalPageCount" content="0" />
+					<meta name="dtb:maxPageNumber" content="0" />
+				</head>
+				<docTitle><text>漢姆萊脫</text></docTitle>
+				<docAuthor><text></text></docAuthor>
+				<navMap>
+					<navPoint id="title" playOrder="1">
+						<navLabel><text>封面</text></navLabel>
+						<content src="title.xhtml"/>
+					</navPoint><navPoint id="c0_han_mu_lai_tuo" playOrder="2">
+						    <navLabel><text>漢姆萊脫</text></navLabel>
+						    <content src="c0_han_mu_lai_tuo.xhtml" />
+					    </navPoint><navPoint id="c1_han_mu_lai_tuo_di_yi_mu" playOrder="3">
+									    <navLabel><text>第一幕</text></navLabel>
+									    <content src="c1_han_mu_lai_tuo_di_yi_mu.xhtml" /></navPoint><navPoint id="c2_han_mu_lai_tuo_di_er_mu" playOrder="4">
+									    <navLabel><text>第二幕</text></navLabel>
+									    <content src="c2_han_mu_lai_tuo_di_er_mu.xhtml" /></navPoint><navPoint id="c3_han_mu_lai_tuo_di_san_mu" playOrder="5">
+									    <navLabel><text>第三幕</text></navLabel>
+									    <content src="c3_han_mu_lai_tuo_di_san_mu.xhtml" /></navPoint><navPoint id="c4_han_mu_lai_tuo_di_si_mu" playOrder="6">
+									    <navLabel><text>第四幕</text></navLabel>
+									    <content src="c4_han_mu_lai_tuo_di_si_mu.xhtml" /></navPoint><navPoint id="c5_han_mu_lai_tuo_di_wu_mu" playOrder="7">
+									    <navLabel><text>第五幕</text></navLabel>
+									    <content src="c5_han_mu_lai_tuo_di_wu_mu.xhtml" /></navPoint><navPoint id="about" playOrder="8">
+						<navLabel>
+							<text>关于</text>
+						</navLabel>
+						<content src="about.xhtml"/>
+					</navPoint>
+			       </navMap>
+			</ncx>

@@ -1,0 +1,357 @@
+{
+  "source": "https://raw.githubusercontent.com/garychowcmu/daizhigev20/master/%E5%8F%B2%E8%97%8F/%E7%9B%AE%E5%BD%95/%E5%9B%9B%E5%BA%93%E5%85%A8%E4%B9%A6%E6%80%BB%E7%9B%AE%E6%8F%90%E8%A6%81.txt",
+  "count": 39,
+  "candidates": [
+    {
+      "from": "南史",
+      "to": "北史",
+      "type": "驳",
+      "evidence": "辨，《南史》有传",
+      "evidenceSource": "《四库全书总目提要·北史提要》",
+      "status": "rejected",
+      "reviewNote": "提要作者以《南史》作外证，不是《北史》主动非难《南史》"
+    },
+    {
+      "from": "楚辞",
+      "to": "楚辞补註",
+      "type": "驳",
+      "evidence": "辨骚》非《楚辞》本书，不当录",
+      "evidenceSource": "《四库全书总目提要·楚辞补註提要》",
+      "status": "rejected",
+      "reviewNote": "辨的是篇目归属，主关系仍是为《楚辞》作传注"
+    },
+    {
+      "from": "文选",
+      "to": "春秋左传",
+      "type": "传",
+      "evidence": "有笺释，用李善注《文选》例",
+      "evidenceSource": "《四库全书总目提要·春秋左传提要》",
+      "status": "rejected",
+      "reviewNote": "这里只是以李善注《文选》作体例比喻"
+    },
+    {
+      "from": "沧浪诗话",
+      "to": "钝吟杂录",
+      "type": "驳",
+      "evidence": "纠谬辨严羽《沧浪诗话》之非，诫子帖多评古帖，论笔法末附以社约四则，皆论读书之法",
+      "evidenceSource": "《四库全书总目提要·钝吟杂录提要》",
+      "status": "accepted",
+      "reviewNote": "明确纠严羽诗论之谬"
+    },
+    {
+      "from": "楚辞",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《楚辞》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "证据所述对象是《尔雅》正文，正式边已改指《尔雅》"
+    },
+    {
+      "from": "尔雅",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "本於《尔雅》",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted",
+      "reviewNote": "《尔雅注疏》以《尔雅》为所释原典，正式表已有传注边"
+    },
+    {
+      "from": "管子",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《管子》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "正式边改指《尔雅》正文"
+    },
+    {
+      "from": "国语",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《国语》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "正式边改指《尔雅》正文"
+    },
+    {
+      "from": "列子",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《列子》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "正式边改指《尔雅》正文"
+    },
+    {
+      "from": "吕氏春秋",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《吕氏春秋》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "正式边改指《尔雅》正文"
+    },
+    {
+      "from": "穆天子传",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《穆天子传》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "正式边改指《尔雅》正文"
+    },
+    {
+      "from": "山海经",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《山海经》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "正式边改指《尔雅》正文"
+    },
+    {
+      "from": "庄子",
+      "to": "尔雅注疏",
+      "type": "采",
+      "evidence": "此取《庄子》之文也",
+      "evidenceSource": "《四库全书总目提要·尔雅注疏提要》",
+      "status": "accepted-normalized",
+      "reviewNote": "正式边改指《尔雅》正文"
+    },
+    {
+      "from": "孔丛子",
+      "to": "公孙龙子",
+      "type": "驳",
+      "evidence": "辨论事，《孔丛子》亦有之，谓龙为穿所绌，而此书又谓穿愿为弟子，彼此互异",
+      "evidenceSource": "《四库全书总目提要·公孙龙子提要》",
+      "status": "rejected",
+      "reviewNote": "两书记事互异，不等于后书主动非难前书"
+    },
+    {
+      "from": "弘明集",
+      "to": "广弘明集",
+      "type": "续",
+      "evidence": "续梁僧祐《弘明集》而体例小殊，分为十篇：一曰归正，二曰辨惑，三曰佛德，四曰法义，五曰僧行",
+      "evidenceSource": "《四库全书总目提要·广弘明集提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言续《弘明集》"
+    },
+    {
+      "from": "后汉书",
+      "to": "敬斋古今黈",
+      "type": "驳",
+      "evidence": "辨古者私家及官衙皆可称朝，引《后汉书》刘宠、成瑨及《左传》伯有事为证",
+      "evidenceSource": "《四库全书总目提要·敬斋古今黈提要》",
+      "status": "rejected",
+      "reviewNote": "《后汉书》被用作支持证据，并非被驳对象"
+    },
+    {
+      "from": "列子",
+      "to": "敬斋古今黈",
+      "type": "驳",
+      "evidence": "辨《孟子》龙断即《列子》所谓冀之南汉之北无陇断焉",
+      "evidenceSource": "《四库全书总目提要·敬斋古今黈提要》",
+      "status": "accepted",
+      "reviewNote": "明确辨正《列子》相关训释"
+    },
+    {
+      "from": "论语",
+      "to": "敬斋古今黈",
+      "type": "驳",
+      "evidence": "辨《论语》五十以学《易》，谓《论语》为未学《易》时语，《史记》所载，则作《十翼后语》，不必改五十字作卒",
+      "evidenceSource": "《四库全书总目提要·敬斋古今黈提要》",
+      "status": "accepted",
+      "reviewNote": "明确辨正《论语》文本解释"
+    },
+    {
+      "from": "千字文",
+      "to": "敬斋古今黈",
+      "type": "驳",
+      "evidence": "驳《千字文》非周兴嗣作",
+      "evidenceSource": "《四库全书总目提要·敬斋古今黈提要》",
+      "status": "accepted",
+      "reviewNote": "明确驳作者旧说"
+    },
+    {
+      "from": "山海经",
+      "to": "敬斋古今黈",
+      "type": "驳",
+      "evidence": "辨《吴都赋》犭军子长啸当是常笑，引《山海经》为证",
+      "evidenceSource": "《四库全书总目提要·敬斋古今黈提要》",
+      "status": "rejected",
+      "reviewNote": "《山海经》只是辨误所用外证"
+    },
+    {
+      "from": "史記",
+      "to": "敬斋古今黈",
+      "type": "驳",
+      "evidence": "辨《史记》自叙瓯、骆相攻，谓当为闽、越相攻",
+      "evidenceSource": "《四库全书总目提要·敬斋古今黈提要》",
+      "status": "accepted",
+      "reviewNote": "明确辨《史记》一处文字"
+    },
+    {
+      "from": "汉书",
+      "to": "梁书",
+      "type": "承",
+      "evidence": "仿《汉书》卷后题班彪之例",
+      "evidenceSource": "《四库全书总目提要·梁书提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言仿《汉书》题署体例"
+    },
+    {
+      "from": "列女传",
+      "to": "列仙传",
+      "type": "承",
+      "evidence": "仿《列女传》",
+      "evidenceSource": "《四库全书总目提要·列仙传提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言仿《列女传》"
+    },
+    {
+      "from": "东京梦华录",
+      "to": "梦粱录",
+      "type": "承",
+      "evidence": "仿《东京梦华录》之体，所纪南宋郊庙宫殿，下至百工杂戏之事，委曲琐屑，无不备载",
+      "evidenceSource": "《四库全书总目提要·梦粱录提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言仿其体例，正式表已有边"
+    },
+    {
+      "from": "汉书",
+      "to": "容斋随笔",
+      "type": "续",
+      "evidence": "续汉书志》，章怀太子以后《汉书》无志，移补其阙",
+      "evidenceSource": "《四库全书总目提要·容斋随笔提要》",
+      "status": "rejected",
+      "reviewNote": "命中的是书中所谈《续汉书志》，并非《容斋随笔》续《汉书》"
+    },
+    {
+      "from": "论语",
+      "to": "尚书正义",
+      "type": "传",
+      "evidence": "有周亲，不如仁人”与所注《论语》相反",
+      "evidenceSource": "《四库全书总目提要·尚书正义提要》",
+      "status": "rejected",
+      "reviewNote": "只是提要转述孔安国注《论语》的异文"
+    },
+    {
+      "from": "文心雕龙",
+      "to": "诗品",
+      "type": "并",
+      "evidence": "与《文心雕龙》并称",
+      "evidenceSource": "《四库全书总目提要·诗品提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言两书并称"
+    },
+    {
+      "from": "崇文总目",
+      "to": "世说新语",
+      "type": "续",
+      "evidence": "续》十卷，《崇文总目》惟载十卷",
+      "evidenceSource": "《四库全书总目提要·世说新语提要》",
+      "status": "rejected",
+      "reviewNote": "“续”属于邻近书名残片，非两书相续"
+    },
+    {
+      "from": "宋史",
+      "to": "宋朝事实",
+      "type": "续",
+      "evidence": "续通鉴长编》及《宋史》互相参订",
+      "evidenceSource": "《四库全书总目提要·宋朝事实提要》",
+      "status": "rejected",
+      "reviewNote": "正文说与《宋史》互相参订，并非续修《宋史》"
+    },
+    {
+      "from": "南史",
+      "to": "宋书",
+      "type": "采",
+      "evidence": "杂取《高氏小史》及《南史》以补之，取盈卷帙",
+      "evidenceSource": "《四库全书总目提要·宋书提要》",
+      "status": "accepted",
+      "reviewNote": "今本《宋书》确以《南史》补阙"
+    },
+    {
+      "from": "周易",
+      "to": "太玄经",
+      "type": "承",
+      "evidence": "仿《周易》",
+      "evidenceSource": "《四库全书总目提要·太玄经提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言仿《周易》"
+    },
+    {
+      "from": "唐会要",
+      "to": "文献通考",
+      "type": "驳",
+      "evidence": "辨先圣、先师之分，而《唐会要》贞观二十一年诏以孔子为先圣，颜回等为先师之制不载",
+      "evidenceSource": "《四库全书总目提要·文献通考提要》",
+      "status": "accepted",
+      "reviewNote": "明确指出《唐会要》相关制度记载之缺"
+    },
+    {
+      "from": "世说新语",
+      "to": "吴越春秋",
+      "type": "传",
+      "evidence": "有刘孝标注《世说新语》之遗意焉",
+      "evidenceSource": "《四库全书总目提要·吴越春秋提要》",
+      "status": "rejected",
+      "reviewNote": "“有遗意”只是文风类比，不能证明传注"
+    },
+    {
+      "from": "论语",
+      "to": "新语",
+      "type": "采",
+      "evidence": "援据多《春秋》、《论语》之文",
+      "evidenceSource": "《四库全书总目提要·新语提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言援据《论语》"
+    },
+    {
+      "from": "庄子",
+      "to": "艺文类聚",
+      "type": "驳",
+      "evidence": "辨证》亦摘其引梁君射白雁事，云出《庄子》，《庄子》无其语",
+      "evidenceSource": "《四库全书总目提要·艺文类聚提要》",
+      "status": "rejected",
+      "reviewNote": "是第三方辨《艺文类聚》误引，并非该书驳《庄子》"
+    },
+    {
+      "from": "唐会要",
+      "to": "中说",
+      "type": "驳",
+      "evidence": "辨《唐会要》载武德元年五月始改隋太兴殿为太极殿，而书中有隋文帝召见太极殿事",
+      "evidenceSource": "《四库全书总目提要·中说提要》",
+      "status": "rejected",
+      "reviewNote": "是总目用《唐会要》辨《中说》年代，不是《中说》驳前书"
+    },
+    {
+      "from": "周礼",
+      "to": "周礼注疏",
+      "type": "驳",
+      "evidence": "攻击？然则《周礼》一书不尽原文，而非出依托，可概睹矣",
+      "evidenceSource": "《四库全书总目提要·周礼注疏提要》",
+      "status": "rejected",
+      "reviewNote": "提要讨论前人攻《周礼》，注疏本身不是发难者"
+    },
+    {
+      "from": "北史",
+      "to": "周书",
+      "type": "采",
+      "evidence": "多取《北史》以补亡",
+      "evidenceSource": "《四库全书总目提要·周书提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言取《北史》补亡"
+    },
+    {
+      "from": "吕氏春秋",
+      "to": "竹书纪年",
+      "type": "驳",
+      "evidence": "驳《吕氏春秋》",
+      "evidenceSource": "《四库全书总目提要·竹书纪年提要》",
+      "status": "accepted",
+      "reviewNote": "提要明言《竹书纪年》驳《吕氏春秋》"
+    }
+  ]
+}

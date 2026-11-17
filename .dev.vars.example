@@ -1,0 +1,24 @@
+# 阿里云百炼（DashScope）模型接入 —— 本地开发用。复制本文件为 .dev.vars 并填入真实 Key。
+# .dev.vars 已被 .gitignore 忽略，不会提交；本 .example 文件供团队参考。
+#
+# 获取 API Key：https://bailian.console.aliyun.com/  → 模型 API Key（DashScope）
+# 模型 Key 仅服务端（Cloudflare Worker）持有，浏览器永不接触。
+
+DASHSCOPE_API_KEY=
+
+# 文化人物发言及通用文本任务，默认使用阿里云百炼 qwen3.8-flash，并关闭思考模式。
+# QWEN_MODEL 是旧配置名，代码仍兼容，但新部署统一使用 CHAT_MODEL。
+CHAT_MODEL=qwen3.8-flash
+
+# 一致性校验官——刻意与 CHAT_MODEL 异源（DeepSeek，非 Qwen 家族）。同一家模型的盲点
+# 是共享的，它写得出的越界之语它自己多半也看不出，故换一家来审，徽记才算个外证。
+# 留空即取默认 deepseek-v4.1-flash；此模型不通时后端自动退回 CHAT_MODEL，
+# 并在 /api/verify 响应里标 crossModel:false，界面徽记随之写明「同源自审」。
+QWEN_VERIFY_MODEL=deepseek-v4.1-flash
+
+# AI 视频（按需「生成视频」＝文生图关键帧→图生视频）：以下皆可留空走默认。
+# 账号需在百炼控制台开通「通义万相」图像/视频模型，否则提交返回权限错误。
+# QWEN_IMAGE_MODEL=wanx2.1-t2i-turbo
+# QWEN_VIDEO_MODEL=wanx2.1-i2v-turbo
+# QWEN_VIDEO_RESOLUTION=720P
+# QWEN_VIDEO_DURATION=5

@@ -1,0 +1,907 @@
+[
+ {
+  "id": "odyssey",
+  "name": "奥德赛",
+  "author": "荷马",
+  "translator": "AI 译（据 Butler 英译本，未经校订）",
+  "era": "约前8世纪",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "odyssey-zh",
+    "chapters": 24
+   },
+   {
+    "lang": "en",
+    "id": "odyssey",
+    "chapters": 24
+   }
+  ]
+ },
+ {
+  "id": "tianyan",
+  "name": "天演论",
+  "author": "赫胥黎",
+  "translator": "严复 译",
+  "era": "1898",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "tianyan",
+    "chapters": 38,
+    "classical": true
+   },
+   {
+    "lang": "en",
+    "id": "tianyan-en",
+    "chapters": 19
+   }
+  ]
+ },
+ {
+  "id": "quixote",
+  "name": "堂吉诃德",
+  "author": "塞万提斯",
+  "translator": "AI 译（据 Ormsby 英译本，未经校订）",
+  "era": "1605",
+  "origin": "西班牙",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "quixote-zh",
+    "chapters": 126
+   },
+   {
+    "lang": "en",
+    "id": "quixote",
+    "chapters": 126
+   }
+  ]
+ },
+ {
+  "id": "hamlet",
+  "name": "哈姆莱特",
+  "author": "莎士比亚",
+  "translator": "朱生豪 译",
+  "era": "1601",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "hamlet",
+    "chapters": 20
+   },
+   {
+    "lang": "en",
+    "id": "hamlet-en",
+    "chapters": 20
+   }
+  ]
+ },
+ {
+  "id": "faust",
+  "name": "浮士德",
+  "author": "歌德",
+  "translator": "AI 译（据 Taylor 英译本，未经校订）",
+  "era": "1808",
+  "origin": "德国",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "faust-zh",
+    "chapters": 28
+   },
+   {
+    "lang": "en",
+    "id": "faust",
+    "chapters": 28
+   }
+  ]
+ },
+ {
+  "id": "chahua",
+  "name": "茶花女",
+  "author": "小仲马",
+  "translator": "林纾、王寿昌 译",
+  "era": "1899",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "chahua",
+    "chapters": 16,
+    "classical": true
+   },
+   {
+    "lang": "en",
+    "id": "camille-en",
+    "chapters": 27
+   }
+  ]
+ },
+ {
+  "id": "yuejie",
+  "name": "月界旅行",
+  "author": "凡尔纳",
+  "translator": "鲁迅 译",
+  "era": "1903",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "yuejie",
+    "chapters": 16,
+    "classical": true
+   },
+   {
+    "lang": "en",
+    "id": "moon-en",
+    "chapters": 28
+   }
+  ]
+ },
+ {
+  "id": "zhongxia",
+  "name": "仲夏夜之梦",
+  "author": "莎士比亚",
+  "translator": "朱生豪 译",
+  "era": "1595",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "zhongxia",
+    "chapters": 9
+   },
+   {
+    "lang": "en",
+    "id": "midsummer-en",
+    "chapters": 9
+   }
+  ]
+ },
+ {
+  "id": "iliad",
+  "name": "伊利亚特",
+  "author": "荷马",
+  "translator": "Samuel Butler · English public-domain edition",
+  "era": "约前8世纪",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "iliad-en",
+    "chapters": 47
+   }
+  ]
+ },
+ {
+  "id": "histories-herodotus",
+  "name": "历史",
+  "author": "希罗多德",
+  "translator": "G. C. Macaulay · English public-domain edition",
+  "era": "约前440年",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "histories-herodotus-en",
+    "chapters": 21
+   }
+  ]
+ },
+ {
+  "id": "oedipus",
+  "name": "俄狄浦斯王",
+  "author": "索福克勒斯",
+  "translator": "F. Storr · English public-domain edition",
+  "era": "约前429年",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "oedipus-en",
+    "chapters": 4
+   }
+  ]
+ },
+ {
+  "id": "peloponnesian-war",
+  "name": "伯罗奔尼撒战争史",
+  "author": "修昔底德",
+  "translator": "Richard Crawley · English public-domain edition",
+  "era": "约前5世纪末",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "peloponnesian-war-en",
+    "chapters": 26
+   }
+  ]
+ },
+ {
+  "id": "republic",
+  "name": "理想国",
+  "author": "柏拉图",
+  "translator": "Benjamin Jowett · English public-domain edition",
+  "era": "约前375年",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "republic-en",
+    "chapters": 24
+   }
+  ]
+ },
+ {
+  "id": "symposium",
+  "name": "会饮篇",
+  "author": "柏拉图",
+  "translator": "Benjamin Jowett · English public-domain edition",
+  "era": "约前370年",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "symposium-en",
+    "chapters": 7
+   }
+  ]
+ },
+ {
+  "id": "politics",
+  "name": "政治学",
+  "author": "亚里士多德",
+  "translator": "Benjamin Jowett · English public-domain edition",
+  "era": "约前350年",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "politics-en",
+    "chapters": 103
+   }
+  ]
+ },
+ {
+  "id": "ethics",
+  "name": "尼各马可伦理学",
+  "author": "亚里士多德",
+  "translator": "F. H. Peters · English public-domain edition",
+  "era": "约前4世纪",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "ethics-en",
+    "chapters": 117
+   }
+  ]
+ },
+ {
+  "id": "poetics",
+  "name": "诗学",
+  "author": "亚里士多德",
+  "translator": "S. H. Butcher · English public-domain edition",
+  "era": "约前335年",
+  "origin": "希腊",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "poetics-en",
+    "chapters": 4
+   }
+  ]
+ },
+ {
+  "id": "aeneid",
+  "name": "埃涅阿斯纪",
+  "author": "维吉尔",
+  "translator": "John Dryden · English public-domain edition",
+  "era": "前19年",
+  "origin": "罗马",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "aeneid-en",
+    "chapters": 11
+   }
+  ]
+ },
+ {
+  "id": "metamorphoses",
+  "name": "变形记",
+  "author": "奥维德",
+  "translator": "Henry T. Riley · English public-domain edition",
+  "era": "约8年",
+  "origin": "罗马",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "metamorphoses-en",
+    "chapters": 23
+   }
+  ]
+ },
+ {
+  "id": "meditations",
+  "name": "沉思录",
+  "author": "马可·奥勒留",
+  "translator": "George Long · English public-domain edition",
+  "era": "约175年",
+  "origin": "罗马",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "meditations-en",
+    "chapters": 18
+   }
+  ]
+ },
+ {
+  "id": "confessions-augustine",
+  "name": "忏悔录",
+  "author": "奥古斯丁",
+  "translator": "Edward B. Pusey · English public-domain edition",
+  "era": "约400年",
+  "origin": "北非／罗马",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "confessions-augustine-en",
+    "chapters": 13
+   }
+  ]
+ },
+ {
+  "id": "consolation",
+  "name": "哲学的慰藉",
+  "author": "波爱修斯",
+  "translator": "H. R. James · English public-domain edition",
+  "era": "约524年",
+  "origin": "意大利",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "consolation-en",
+    "chapters": 15
+   }
+  ]
+ },
+ {
+  "id": "beowulf",
+  "name": "贝奥武夫",
+  "author": "佚名",
+  "translator": "J. Lesslie Hall · English public-domain edition",
+  "era": "约8—10世纪",
+  "origin": "英格兰",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "beowulf-en",
+    "chapters": 9
+   }
+  ]
+ },
+ {
+  "id": "song-of-roland",
+  "name": "罗兰之歌",
+  "author": "佚名",
+  "translator": "C. K. Scott-Moncrieff · English public-domain edition",
+  "era": "约1100年",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "song-of-roland-en",
+    "chapters": 7
+   }
+  ]
+ },
+ {
+  "id": "divine-comedy",
+  "name": "神曲",
+  "author": "但丁",
+  "translator": "Henry Wadsworth Longfellow · English public-domain edition",
+  "era": "1321年",
+  "origin": "意大利",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "divine-comedy-en",
+    "chapters": 100
+   }
+  ]
+ },
+ {
+  "id": "decameron",
+  "name": "十日谈",
+  "author": "薄伽丘",
+  "translator": "John Payne · English public-domain edition",
+  "era": "约1353年",
+  "origin": "意大利",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "decameron-en",
+    "chapters": 58
+   }
+  ]
+ },
+ {
+  "id": "canterbury",
+  "name": "坎特伯雷故事集",
+  "author": "乔叟",
+  "translator": "Modern English edition · English public-domain edition",
+  "era": "约14世纪末",
+  "origin": "英格兰",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "canterbury-en",
+    "chapters": 53
+   }
+  ]
+ },
+ {
+  "id": "prince",
+  "name": "君主论",
+  "author": "马基雅维利",
+  "translator": "W. K. Marriott · English public-domain edition",
+  "era": "1513年",
+  "origin": "意大利",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "prince-en",
+    "chapters": 26
+   }
+  ]
+ },
+ {
+  "id": "utopia",
+  "name": "乌托邦",
+  "author": "托马斯·莫尔",
+  "translator": "Gilbert Burnet · English public-domain edition",
+  "era": "1516年",
+  "origin": "英格兰",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "utopia-en",
+    "chapters": 8
+   }
+  ]
+ },
+ {
+  "id": "praise-of-folly",
+  "name": "愚人颂",
+  "author": "伊拉斯谟",
+  "translator": "John Wilson · English public-domain edition",
+  "era": "1511年",
+  "origin": "尼德兰",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "praise-of-folly-en",
+    "chapters": 9
+   }
+  ]
+ },
+ {
+  "id": "essays-montaigne",
+  "name": "随笔集",
+  "author": "蒙田",
+  "translator": "Charles Cotton · English public-domain edition",
+  "era": "1580年",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "essays-montaigne-en",
+    "chapters": 128
+   }
+  ]
+ },
+ {
+  "id": "new-organon",
+  "name": "新工具",
+  "author": "培根",
+  "translator": "James Spedding et al. · English public-domain edition",
+  "era": "1620年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "new-organon-en",
+    "chapters": 19
+   }
+  ]
+ },
+ {
+  "id": "discourse-method",
+  "name": "方法论",
+  "author": "笛卡尔",
+  "translator": "John Veitch · English public-domain edition",
+  "era": "1637年",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "discourse-method-en",
+    "chapters": 5
+   }
+  ]
+ },
+ {
+  "id": "leviathan",
+  "name": "利维坦",
+  "author": "霍布斯",
+  "translator": "Original English · English public-domain edition",
+  "era": "1651年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "leviathan-en",
+    "chapters": 50
+   }
+  ]
+ },
+ {
+  "id": "ethics-spinoza",
+  "name": "伦理学",
+  "author": "斯宾诺莎",
+  "translator": "R. H. M. Elwes · English public-domain edition",
+  "era": "1677年",
+  "origin": "尼德兰",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "ethics-spinoza-en",
+    "chapters": 11
+   }
+  ]
+ },
+ {
+  "id": "paradise-lost",
+  "name": "失乐园",
+  "author": "约翰·弥尔顿",
+  "translator": "Original English · English public-domain edition",
+  "era": "1667年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "paradise-lost-en",
+    "chapters": 12
+   }
+  ]
+ },
+ {
+  "id": "two-treatises",
+  "name": "政府论（下篇）",
+  "author": "洛克",
+  "translator": "Original English · English public-domain edition",
+  "era": "1689年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "two-treatises-en",
+    "chapters": 19
+   }
+  ]
+ },
+ {
+  "id": "gulliver",
+  "name": "格列佛游记",
+  "author": "斯威夫特",
+  "translator": "Original English · English public-domain edition",
+  "era": "1726年",
+  "origin": "爱尔兰",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "gulliver-en",
+    "chapters": 39
+   }
+  ]
+ },
+ {
+  "id": "spirit-laws",
+  "name": "论法的精神",
+  "author": "孟德斯鸠",
+  "translator": "Thomas Nugent · English public-domain edition",
+  "era": "1748年",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "spirit-laws-en",
+    "chapters": 25
+   }
+  ]
+ },
+ {
+  "id": "candide",
+  "name": "老实人",
+  "author": "伏尔泰",
+  "translator": "Philip Littell · English public-domain edition",
+  "era": "1759年",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "candide-en",
+    "chapters": 8
+   }
+  ]
+ },
+ {
+  "id": "social-contract",
+  "name": "社会契约论",
+  "author": "卢梭",
+  "translator": "G. D. H. Cole · English public-domain edition",
+  "era": "1762年",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "social-contract-en",
+    "chapters": 55
+   }
+  ]
+ },
+ {
+  "id": "wealth-nations",
+  "name": "国富论",
+  "author": "亚当·斯密",
+  "translator": "严复《原富》历史中译节选 · Original English 英文原书",
+  "era": "1776年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "zh",
+    "id": "wealth-nations-yanfu-zh-20261108",
+    "chapters": 4,
+    "classical": true,
+    "partial": true
+   },
+   {
+    "lang": "en",
+    "id": "wealth-nations-en",
+    "chapters": 60
+   }
+  ]
+ },
+ {
+  "id": "pure-reason",
+  "name": "纯粹理性批判",
+  "author": "康德",
+  "translator": "J. M. D. Meiklejohn · English public-domain edition",
+  "era": "1781年",
+  "origin": "德国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "pure-reason-en",
+    "chapters": 41
+   }
+  ]
+ },
+ {
+  "id": "rights-woman",
+  "name": "女权辩护",
+  "author": "玛丽·沃斯通克拉夫特",
+  "translator": "Original English · English public-domain edition",
+  "era": "1792年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "rights-woman-en",
+    "chapters": 15
+   }
+  ]
+ },
+ {
+  "id": "frankenstein",
+  "name": "弗兰肯斯坦",
+  "author": "玛丽·雪莱",
+  "translator": "Original English · English public-domain edition",
+  "era": "1818年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "frankenstein-en",
+    "chapters": 24
+   }
+  ]
+ },
+ {
+  "id": "democracy-america",
+  "name": "论美国的民主",
+  "author": "托克维尔",
+  "translator": "Henry Reeve · English public-domain edition",
+  "era": "1835年",
+  "origin": "法国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "democracy-america-en",
+    "chapters": 43
+   }
+  ]
+ },
+ {
+  "id": "communist-manifesto",
+  "name": "共产党宣言",
+  "author": "马克思、恩格斯",
+  "translator": "Samuel Moore · English public-domain edition",
+  "era": "1848年",
+  "origin": "德国／英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "communist-manifesto-en",
+    "chapters": 3
+   }
+  ]
+ },
+ {
+  "id": "moby-dick",
+  "name": "白鲸",
+  "author": "赫尔曼·梅尔维尔",
+  "translator": "Original English · English public-domain edition",
+  "era": "1851年",
+  "origin": "美国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "moby-dick-en",
+    "chapters": 135
+   }
+  ]
+ },
+ {
+  "id": "origin-species",
+  "name": "物种起源",
+  "author": "达尔文",
+  "translator": "Original English · English public-domain edition",
+  "era": "1859年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "origin-species-en",
+    "chapters": 30
+   }
+  ]
+ },
+ {
+  "id": "on-liberty",
+  "name": "论自由",
+  "author": "约翰·斯图亚特·密尔",
+  "translator": "Original English · English public-domain edition",
+  "era": "1859年",
+  "origin": "英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "on-liberty-en",
+    "chapters": 8
+   }
+  ]
+ },
+ {
+  "id": "crime-punishment",
+  "name": "罪与罚",
+  "author": "陀思妥耶夫斯基",
+  "translator": "Constance Garnett · English public-domain edition",
+  "era": "1866年",
+  "origin": "俄国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "crime-punishment-en",
+    "chapters": 40
+   }
+  ]
+ },
+ {
+  "id": "capital",
+  "name": "资本论",
+  "author": "马克思",
+  "translator": "Samuel Moore and Edward Aveling · English public-domain edition",
+  "era": "1867年（第一卷）",
+  "origin": "德国／英国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "capital-en",
+    "chapters": 27
+   }
+  ]
+ },
+ {
+  "id": "war-peace",
+  "name": "战争与和平",
+  "author": "托尔斯泰",
+  "translator": "Louise and Aylmer Maude · English public-domain edition",
+  "era": "1869年",
+  "origin": "俄国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "war-peace-en",
+    "chapters": 364
+   }
+  ]
+ },
+ {
+  "id": "zarathustra",
+  "name": "查拉图斯特拉如是说",
+  "author": "尼采",
+  "translator": "Thomas Common · English public-domain edition",
+  "era": "1883—1885年",
+  "origin": "德国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "zarathustra-en",
+    "chapters": 82
+   }
+  ]
+ },
+ {
+  "id": "dream-interpretation",
+  "name": "梦的解析",
+  "author": "弗洛伊德",
+  "translator": "M. D. Eder · English public-domain edition",
+  "era": "1899年",
+  "origin": "奥地利",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "dream-interpretation-en",
+    "chapters": 12
+   }
+  ]
+ },
+ {
+  "id": "relativity",
+  "name": "相对论：狭义与广义理论",
+  "author": "爱因斯坦",
+  "translator": "Robert W. Lawson · English public-domain edition",
+  "era": "1916年",
+  "origin": "德国",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "relativity-en",
+    "chapters": 6
+   }
+  ]
+ },
+ {
+  "id": "ulysses",
+  "name": "尤利西斯",
+  "author": "詹姆斯·乔伊斯",
+  "translator": "Original English · English public-domain edition",
+  "era": "1922年",
+  "origin": "爱尔兰",
+  "editions": [
+   {
+    "lang": "en",
+    "id": "ulysses-en",
+    "chapters": 52
+   }
+  ]
+ }
+]

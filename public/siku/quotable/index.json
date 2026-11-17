@@ -1,0 +1,487 @@
+[
+ {
+  "bookId": "daodejing",
+  "title": "道德经（老子）",
+  "authorIds": [
+   "laozi"
+  ],
+  "items": 108,
+  "group": "子",
+  "category": "道家",
+  "dynasty": "先秦",
+  "chapters": 2,
+  "author": "李耳"
+ },
+ {
+  "bookId": "dengxizi",
+  "title": "邓析子",
+  "authorIds": [
+   "dengxi"
+  ],
+  "items": 50,
+  "group": "子",
+  "category": "法家",
+  "dynasty": "先秦",
+  "chapters": 1,
+  "author": "邓析"
+ },
+ {
+  "bookId": "gongsunlongzi",
+  "title": "公孙龙子",
+  "authorIds": [
+   "gongsun"
+  ],
+  "items": 40,
+  "group": "子",
+  "category": "杂家",
+  "dynasty": "先秦",
+  "chapters": 2,
+  "author": "公孙龙"
+ },
+ {
+  "bookId": "guanzi",
+  "title": "管子",
+  "authorIds": [
+   "guanzhong"
+  ],
+  "items": 1655,
+  "group": "子",
+  "category": "法家",
+  "dynasty": "先秦",
+  "chapters": 87,
+  "author": "管仲（旧题）"
+ },
+ {
+  "bookId": "guiguzi",
+  "title": "鬼谷子",
+  "authorIds": [
+   "guigu"
+  ],
+  "items": 113,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "先秦",
+  "chapters": 13
+ },
+ {
+  "bookId": "hanfeizi",
+  "title": "韩非子",
+  "authorIds": [
+   "han"
+  ],
+  "items": 962,
+  "group": "子",
+  "category": "法家",
+  "dynasty": "先秦",
+  "chapters": 35,
+  "author": "韩非"
+ },
+ {
+  "bookId": "liezi",
+  "title": "列子",
+  "authorIds": [
+   "liezi"
+  ],
+  "items": 250,
+  "group": "子",
+  "category": "道家",
+  "dynasty": "先秦",
+  "chapters": 2,
+  "author": "列御寇"
+ },
+ {
+  "bookId": "liutao",
+  "title": "六韬",
+  "authorIds": [
+   "lvwang"
+  ],
+  "items": 278,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "先秦",
+  "chapters": 1,
+  "author": "吕望（旧题）"
+ },
+ {
+  "bookId": "lunyu",
+  "title": "论语",
+  "authorIds": [
+   "kong"
+  ],
+  "items": 537,
+  "group": "经",
+  "category": "十三经",
+  "dynasty": "先秦",
+  "chapters": 21,
+  "author": "孔子弟子"
+ },
+ {
+  "bookId": "lvshichunqiu",
+  "title": "吕氏春秋",
+  "authorIds": [
+   "lvbuwei"
+  ],
+  "items": 1447,
+  "group": "子",
+  "category": "杂家",
+  "dynasty": "先秦",
+  "chapters": 27,
+  "author": "吕不韦"
+ },
+ {
+  "bookId": "mengzi",
+  "title": "孟子",
+  "authorIds": [
+   "meng"
+  ],
+  "items": 778,
+  "group": "经",
+  "category": "十三经",
+  "dynasty": "先秦",
+  "chapters": 15,
+  "author": "孟轲"
+ },
+ {
+  "bookId": "mozi",
+  "title": "墨子",
+  "authorIds": [
+   "mo"
+  ],
+  "items": 1218,
+  "group": "子",
+  "category": "杂家",
+  "dynasty": "先秦",
+  "chapters": 16,
+  "author": "墨翟"
+ },
+ {
+  "bookId": "sanlue",
+  "title": "三略",
+  "authorIds": [
+   "huangshigong"
+  ],
+  "items": 70,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "汉",
+  "chapters": 3,
+  "author": "黄石公（旧题）"
+ },
+ {
+  "bookId": "shangjunshu",
+  "title": "商君书",
+  "authorIds": [
+   "shangyang"
+  ],
+  "items": 291,
+  "group": "子",
+  "category": "法家",
+  "dynasty": "先秦",
+  "chapters": 27,
+  "author": "商鞅"
+ },
+ {
+  "bookId": "shenzi",
+  "title": "申子",
+  "authorIds": [
+   "shenbuhai"
+  ],
+  "items": 21,
+  "group": "子",
+  "category": "法家",
+  "dynasty": "先秦",
+  "chapters": 3,
+  "author": "申不害"
+ },
+ {
+  "bookId": "shenzi2",
+  "title": "慎子",
+  "authorIds": [
+   "shendao"
+  ],
+  "items": 33,
+  "group": "子",
+  "category": "杂家",
+  "dynasty": "先秦",
+  "chapters": 9,
+  "author": "慎到"
+ },
+ {
+  "bookId": "simafa",
+  "title": "司马法",
+  "authorIds": [
+   "rangju"
+  ],
+  "items": 95,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "先秦",
+  "chapters": 6,
+  "author": "田穰苴（旧题）"
+ },
+ {
+  "bookId": "sunbinfa",
+  "title": "孙膑兵法",
+  "authorIds": [
+   "sunbin"
+  ],
+  "items": 630,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "先秦",
+  "chapters": 31,
+  "author": "孙膑"
+ },
+ {
+  "bookId": "sunzi",
+  "title": "孙子兵法",
+  "authorIds": [
+   "sunwu"
+  ],
+  "items": 105,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "先秦",
+  "chapters": 14,
+  "author": "孙武"
+ },
+ {
+  "bookId": "weiliaozi",
+  "title": "尉繚子",
+  "authorIds": [
+   "weiliao"
+  ],
+  "items": 177,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "先秦",
+  "chapters": 25,
+  "author": "尉缭"
+ },
+ {
+  "bookId": "wenzi",
+  "title": "文子",
+  "authorIds": [
+   "wenzi"
+  ],
+  "items": 550,
+  "group": "子",
+  "category": "道家",
+  "dynasty": "先秦",
+  "chapters": 12
+ },
+ {
+  "bookId": "wuzi",
+  "title": "吴子",
+  "authorIds": [
+   "wuqi"
+  ],
+  "items": 71,
+  "group": "子",
+  "category": "兵家",
+  "dynasty": "先秦",
+  "chapters": 7,
+  "author": "吴起"
+ },
+ {
+  "bookId": "xiaojing",
+  "title": "孝经",
+  "authorIds": [
+   "zengzi"
+  ],
+  "items": 33,
+  "group": "经",
+  "category": "十三经",
+  "dynasty": "先秦",
+  "chapters": 1
+ },
+ {
+  "bookId": "xunzi",
+  "title": "荀子",
+  "authorIds": [
+   "xun"
+  ],
+  "items": 1089,
+  "group": "子",
+  "category": "儒家",
+  "dynasty": "先秦",
+  "chapters": 33,
+  "author": "荀况"
+ },
+ {
+  "bookId": "xy-bajie",
+  "title": "西游记",
+  "authorIds": [
+   "bajie"
+  ],
+  "items": 615,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-guanyin",
+  "title": "西游记",
+  "authorIds": [
+   "guanyin"
+  ],
+  "items": 96,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-jinxing",
+  "title": "西游记",
+  "authorIds": [
+   "jinxing"
+  ],
+  "items": 24,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-laojun",
+  "title": "西游记",
+  "authorIds": [
+   "laojun"
+  ],
+  "items": 20,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-niumowang",
+  "title": "西游记",
+  "authorIds": [
+   "niumowang"
+  ],
+  "items": 15,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-nvwang",
+  "title": "西游记",
+  "authorIds": [
+   "nvwang"
+  ],
+  "items": 9,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-rulai",
+  "title": "西游记",
+  "authorIds": [
+   "rulai"
+  ],
+  "items": 36,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-shaseng",
+  "title": "西游记",
+  "authorIds": [
+   "shaseng"
+  ],
+  "items": 181,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-taizong",
+  "title": "西游记",
+  "authorIds": [
+   "taizong"
+  ],
+  "items": 35,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-tangseng",
+  "title": "西游记",
+  "authorIds": [
+   "tangseng"
+  ],
+  "items": 585,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-tieshan",
+  "title": "西游记",
+  "authorIds": [
+   "tieshan"
+  ],
+  "items": 14,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-wukong",
+  "title": "西游记",
+  "authorIds": [
+   "wukong"
+  ],
+  "items": 1900,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-yudi",
+  "title": "西游记",
+  "authorIds": [
+   "yudi"
+  ],
+  "items": 20,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-zhenyuan",
+  "title": "西游记",
+  "authorIds": [
+   "zhenyuan"
+  ],
+  "items": 22,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "xy-zushi",
+  "title": "西游记",
+  "authorIds": [
+   "zushi"
+  ],
+  "items": 44,
+  "author": "吴承恩",
+  "worldId": "xiyou"
+ },
+ {
+  "bookId": "yinwenzi",
+  "title": "尹文子",
+  "authorIds": [
+   "yinwen"
+  ],
+  "items": 60,
+  "group": "子",
+  "category": "杂家",
+  "dynasty": "先秦",
+  "chapters": 1,
+  "author": "尹文"
+ },
+ {
+  "bookId": "zhuangzi",
+  "title": "庄子",
+  "authorIds": [
+   "zhuang"
+  ],
+  "items": 852,
+  "group": "子",
+  "category": "道家",
+  "dynasty": "先秦",
+  "chapters": 2,
+  "author": "庄周"
+ }
+]

@@ -1,0 +1,12 @@
+{
+  "total": 1500,
+  "directory": 17859,
+  "existingCore": 85,
+  "generated": 1415,
+  "tiers": {
+    "core": 150,
+    "work": 500,
+    "context": 850
+  },
+  "generatedAt": "2026-11-10T03:45:26.695Z"
+}

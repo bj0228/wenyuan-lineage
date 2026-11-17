@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+		      <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid" version="3.0" xml:lang="zh" prefix="cc: http://creativecommons.org/ns#">
+			     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+				    <dc:identifier id="uid">https://zh.wikisource.org/wiki/%E6%BC%A2%E5%A7%86%E8%90%8A%E8%84%AB</dc:identifier>
+				    <meta property="dcterms:modified">2026-10-14T06:14:11Z</meta>
+				    <dc:language>zh</dc:language>
+				    <dc:title id="meta-title">漢姆萊脫</dc:title>
+				    <meta refines="#meta-title" property="title-type">main</meta>
+				    <dc:source>https://zh.wikisource.org/wiki/%E6%BC%A2%E5%A7%86%E8%90%8A%E8%84%AB</dc:source>
+				    <dc:rights xml:lang="en">Creative Commons BY-SA 3.0</dc:rights>
+				    <link rel="cc:license" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+				    <dc:rights xml:lang="en">GNU Free Documentation License</dc:rights>
+				    <link rel="cc:license" href="http://www.gnu.org/copyleft/fdl.html" />
+				    <dc:contributor id="meta-bkp">Wikisource</dc:contributor>
+				    <meta refines="#meta-bkp" property="role" scheme="marc:relators">bkp</meta><meta name="cover" content="title" /></metadata>
+			     <manifest>
+				    <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav" />
+				    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/><item id="title" href="title.xhtml" media-type="application/xhtml+xml" />
+				    <item id="mainCss" href="main.css" media-type="text/css" /><item id="Wikisource-logo.svg.png" href="images/Wikisource-logo.svg.png" media-type="image/png" /><item id="c0_han_mu_lai_tuo" href="c0_han_mu_lai_tuo.xhtml" media-type="application/xhtml+xml" />
+<item id="c1_han_mu_lai_tuo_di_yi_mu" href="c1_han_mu_lai_tuo_di_yi_mu.xhtml" media-type="application/xhtml+xml" />
+<item id="c2_han_mu_lai_tuo_di_er_mu" href="c2_han_mu_lai_tuo_di_er_mu.xhtml" media-type="application/xhtml+xml" />
+<item id="c3_han_mu_lai_tuo_di_san_mu" href="c3_han_mu_lai_tuo_di_san_mu.xhtml" media-type="application/xhtml+xml" />
+<item id="c4_han_mu_lai_tuo_di_si_mu" href="c4_han_mu_lai_tuo_di_si_mu.xhtml" media-type="application/xhtml+xml" />
+<item id="c5_han_mu_lai_tuo_di_wu_mu" href="c5_han_mu_lai_tuo_di_wu_mu.xhtml" media-type="application/xhtml+xml" />
+<item id="c6_g_20px_Wikimedia_logo.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" href="images/c6_g_20px_Wikimedia_logo.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" media-type="image/png" />
+<item id="c7_ht.svg_20px_Copyright.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" href="images/c7_ht.svg_20px_Copyright.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" media-type="image/png" />
+<item id="c8_icon.svg_20px_PD_icon.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" href="images/c8_icon.svg_20px_PD_icon.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" media-type="image/png" />
+<item id="c9_icon.svg_60px_PD_icon.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" href="images/c9_icon.svg_60px_PD_icon.svg.png_utm_source_zh.wikisource.org_utm_campaign_parser_utm_content_thumbnail" media-type="image/png" />
+<item id="about" href="about.xhtml" media-type="application/xhtml+xml" />
+			     </manifest>
+			     <spine toc="ncx"><itemref idref="title" linear="yes" /><itemref idref="c0_han_mu_lai_tuo" linear="yes" /><itemref idref="c1_han_mu_lai_tuo_di_yi_mu" linear="yes" /><itemref idref="c2_han_mu_lai_tuo_di_er_mu" linear="yes" /><itemref idref="c3_han_mu_lai_tuo_di_san_mu" linear="yes" /><itemref idref="c4_han_mu_lai_tuo_di_si_mu" linear="yes" /><itemref idref="c5_han_mu_lai_tuo_di_wu_mu" linear="yes" /><itemref idref="about" linear="yes" />
+			     </spine>
+		      </package>
