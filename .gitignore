@@ -46,6 +46,7 @@ work/
 
 # local/failed evaluation runs; only reviewed reports belong under docs/evaluation
 /code/docs/evaluation/*-pilot.json
+/code/docs/evaluation/five-question-system-results.json
 
 # local assistant/editor state (may contain credentials and command history)
 .claude/
@@ -59,6 +60,11 @@ tmp/
 /code/public/siku/books/
 /code/public/siku/quotable-all/
 /code/public/worldlit/books/
+
+# generated research artifacts kept locally, not published in the source repository
+/code/app/world/canon-vectors.ts
+/code/app/world/generated-personas.ts
+/code/public/data/persona-directory.json
 
 # local build/typecheck artefacts and visual diagnostics
 *.tsbuildinfo

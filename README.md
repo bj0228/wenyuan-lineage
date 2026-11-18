@@ -25,9 +25,11 @@
 
 This repository contains the application, reviewed cultural-lineage indexes,
 runtime evidence subsets, and the assets required by the public demonstration.
-The complete source corpora, local research caches, failed evaluation runs,
-model credentials, and deployment configuration are not included. A reviewed
-evaluation report is retained under `code/docs/evaluation/` for reproducibility.
+The complete source corpora, semantic vectors, generated persona registries,
+evaluation outputs, local research caches, model credentials, and deployment
+configuration are not included. On first run, the setup creates empty local
+fallbacks for the omitted generated artifacts; retrieval then uses keyword
+matching and the hand-authored core personas.
 
 ## Data Sources
 
