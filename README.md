@@ -21,6 +21,14 @@
 └── video/   # demonstration video
 ```
 
+## Repository Scope
+
+This repository contains the application, reviewed cultural-lineage indexes,
+runtime evidence subsets, and the assets required by the public demonstration.
+The complete source corpora, local research caches, failed evaluation runs,
+model credentials, and deployment configuration are not included. A reviewed
+evaluation report is retained under `code/docs/evaluation/` for reproducibility.
+
 ## Data Sources
 
 The system integrates bibliographic and lineage evidence from the *Siku Quanshu Zongmu Tiyao*, person--work records from the China Biographical Database, historical coordinates from the China Historical GIS, and public-domain Western editions from Project Gutenberg. Modern and contemporary events are linked to their source records.

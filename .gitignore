@@ -44,6 +44,9 @@ dist/
 outputs/
 work/
 
+# local/failed evaluation runs; only reviewed reports belong under docs/evaluation
+/code/docs/evaluation/*-pilot.json
+
 # local assistant/editor state (may contain credentials and command history)
 .claude/
 .cache/

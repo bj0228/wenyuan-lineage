@@ -27,10 +27,9 @@ import os
 import re
 import sys
 
-SRC = "/root/gpufree-data/sikuquanshu_export_20250918_162216"
-# 产物与源同卷。根分区的 inode 已被别的工作负载占满（1966080/1966080，字节还剩 2.8G），
-# 切书要写出上万个分片小文件，写根分区必然 ENOSPC；gpufree-data 这卷尚有九千余万 inode。
-OUT = os.environ.get("ZHUZI_OUT", "/root/gpufree-data/zhuzi-out")
+# 原始导出不随仓库发布；通过环境变量指定本地位置，默认值仅作目录约定。
+SRC = os.environ.get("SIKU_SOURCE", "data/source/siku")
+OUT = os.environ.get("ZHUZI_OUT", "scripts/out/siku-selected")
 
 # ── 选书表：书名（不含书名号）→ 分片目录名 ────────────────────────────
 # id 用拉丁转写，人看得懂、进得了 URL；只做 fetch 路径，不露在界面上。

@@ -24,9 +24,9 @@ from pathlib import Path
 from siku_extract import chap_order, stream_records
 
 
-DEFAULT_SOURCE = Path("/root/gpufree-data/sikuquanshu_export_20250918_162216")
+DEFAULT_SOURCE = Path(os.environ.get("SIKU_SOURCE", "data/source/siku"))
 DEFAULT_CATALOG = Path("public/siku/catalog.json")
-DEFAULT_OUTPUT = Path("/root/gpufree-data/zhuzi-out-all")
+DEFAULT_OUTPUT = Path(os.environ.get("ZHUZI_OUT", "scripts/out/siku-all"))
 
 
 def compact_dump(path: Path, value: object) -> None:
@@ -173,8 +173,8 @@ def main() -> int:
         compact_dump(stage / "catalog.json", entries)
         manifest = {
             "generatedAt": datetime.now(timezone.utc).isoformat(),
-            "source": str(source_json),
-            "catalogSource": str(args.catalog),
+            "source": source_json.name,
+            "catalogSource": args.catalog.name,
             "books": len(entries),
             "readableBooks": len(old_ids) + len(available),
             "catalogOnlyBooks": len(missing),

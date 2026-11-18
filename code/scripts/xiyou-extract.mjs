@@ -22,7 +22,7 @@ const argOf = (name, dflt) => {
   const i = args.indexOf(`--${name}`);
   return i >= 0 && args[i + 1] ? args[i + 1] : dflt;
 };
-const SRC = argOf("src", "/root/gpufree-data/sikuquanshu_export_20250918_162216");
+const SRC = argOf("src", process.env.SIKU_SOURCE ?? "data/source/siku");
 const OUT = argOf("out", "app/world/xiyou-passages.ts");
 const BOOK_TITLE = argOf("title", "《西游记》");
 

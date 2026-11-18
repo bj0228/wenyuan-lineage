@@ -229,12 +229,15 @@ async function main() {
     summary: summarize(completed),
     results: rows.sort((a, b) => personas.indexOf(a.personaId) - personas.indexOf(b.personaId) || a.questionId.localeCompare(b.questionId)),
   };
-  const outDir = path.join(root, "docs", "evaluation");
+  // Pilot/failure runs remain local; only a reviewed full report belongs in public documentation.
+  const outDir = pilot
+    ? path.join(root, "scripts", "out", "evaluation")
+    : path.join(root, "docs", "evaluation");
   fs.mkdirSync(outDir, { recursive: true });
   const stem = pilot ? "five-question-pilot" : "five-question-system-results";
   fs.writeFileSync(path.join(outDir, `${stem}.json`), `${JSON.stringify(report, null, 2)}\n`);
   console.log(`SUMMARY ${JSON.stringify(report.summary)}`);
-  console.log(`WROTE docs/evaluation/${stem}.json`);
+  console.log(`WROTE ${path.relative(root, path.join(outDir, `${stem}.json`))}`);
 }
 
 await main();
