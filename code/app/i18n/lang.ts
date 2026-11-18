@@ -65,11 +65,22 @@ export function getLang(): Lang {
   return lang;
 }
 
+/** 是否已有明确的界面语言选择；首次进入门页据此决定是否出现。 */
+export function hasSavedLang(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    const saved = window.localStorage.getItem(STORAGE_KEY);
+    return saved === "zh" || saved === "en";
+  } catch {
+    return false;
+  }
+}
+
 /** 站名：与 layout.tsx 的 metadata.title 同一个字串，换语言时据此改标签页 */
 const TITLE = "文渊寻脉";
 
 export function setLang(next: Lang) {
-  if (next === lang) return;
+  const changed = next !== lang;
   lang = next;
   if (typeof document !== "undefined") {
     document.documentElement.lang = next === "en" ? "en" : "zh-CN";
@@ -82,7 +93,7 @@ export function setLang(next: Lang) {
   } catch {
     /* 配额满或被禁用：内存态仍可用，只是刷新后回到中文 */
   }
-  emit();
+  if (changed) emit();
 }
 
 /**

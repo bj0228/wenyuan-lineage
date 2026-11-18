@@ -2939,6 +2939,62 @@ select.found-input { cursor: pointer; }
 .lang-tog button.on:hover { color: var(--red); }
 .lang-tog button:focus-visible { outline: 1px solid var(--red); outline-offset: 2px; }
 
+/* ── 首次访问语言门页 ────────────────────────────────────────────
+   先选语言、后开导览。层级高于导览本身，确保两者绝不同时争夺焦点。 */
+.lang-gate {
+  position: fixed; inset: 0; z-index: 200;
+  display: grid; place-items: center; padding: 24px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(239, 230, 204, .9), rgba(40, 33, 23, .7)),
+    rgba(28, 24, 18, .66);
+  backdrop-filter: blur(7px);
+}
+.lang-gate-card {
+  position: relative; width: min(560px, 100%); padding: 44px 50px 42px;
+  text-align: center; color: #302b23;
+  background: rgba(246, 240, 222, .98);
+  border: 1px solid rgba(118, 99, 68, .48);
+  box-shadow: 0 24px 70px rgba(27, 21, 14, .38), inset 0 0 0 7px rgba(255, 252, 242, .36);
+}
+.lang-gate-card:before,
+.lang-gate-card:after {
+  content: ""; position: absolute; left: 28px; right: 28px; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(143, 61, 45, .46), transparent);
+}
+.lang-gate-card:before { top: 20px; }
+.lang-gate-card:after { bottom: 20px; }
+.lang-gate-seal {
+  width: 52px; height: 52px; margin: 0 auto 15px;
+  display: grid; place-items: center; box-sizing: border-box;
+  border: 2px solid #9f493b; color: #9f493b; font-size: 25px; line-height: 1;
+  transform: rotate(-2deg); box-shadow: inset 0 0 0 3px rgba(159, 73, 59, .1);
+}
+.lang-gate-kicker { margin: 0 0 10px; color: #8f3f33; font-size: 10px; letter-spacing: .2em; }
+.lang-gate-card h2 { margin: 0; font-size: 25px; font-weight: 600; letter-spacing: .12em; }
+.lang-gate-card h2 small { display: block; margin-top: 8px; color: #817765; font-size: 14px; font-weight: 400; letter-spacing: .08em; }
+.lang-gate-note { margin: 19px 0 24px; color: #655e51; font-size: 12px; line-height: 1.75; }
+.lang-gate-note span { display: block; color: #8a8172; font-size: 11px; }
+.lang-gate-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.lang-gate-actions button {
+  min-height: 82px; padding: 13px 10px; cursor: pointer; font-family: inherit;
+  border: 1px solid rgba(130, 112, 80, .5); background: rgba(236, 228, 207, .72); color: #393329;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease;
+}
+.lang-gate-actions button:hover {
+  transform: translateY(-2px); border-color: #9f493b; background: #f8f0dd;
+  box-shadow: 0 7px 16px rgba(66, 48, 25, .12);
+}
+.lang-gate-actions button:focus-visible { outline: 2px solid #9f493b; outline-offset: 3px; }
+.lang-gate-actions b { display: block; font-size: 17px; font-weight: 600; letter-spacing: .08em; }
+.lang-gate-actions span { display: block; margin-top: 6px; color: #827866; font-size: 9.5px; letter-spacing: .04em; }
+
+@media (max-width: 560px) {
+  .lang-gate { padding: 16px; }
+  .lang-gate-card { padding: 36px 22px 34px; }
+  .lang-gate-actions { grid-template-columns: 1fr; }
+  .lang-gate-actions button { min-height: 68px; }
+}
+
 /* ── 新手导览那枚圆钮（罗盘顶栏，题名旁）───────────────────────────
    一圈细墨线、一字「导」淡墨，悬停才着朱并浮起一线影：它是随手可按的一枚印记，
    不与那三枚横贯之路的签牌争眼。圆形取盘面环带之调（整屏都是圈），

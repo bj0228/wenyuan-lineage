@@ -88,6 +88,16 @@ export function anyUnseen(): boolean {
   return TOUR_CHAPTERS.some((c) => !seen.has(c));
 }
 
+/** 已经留下过导览记录的旧用户，不再补弹首次语言门页。 */
+export function hasTourHistory(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    return window.localStorage.getItem(STORAGE_KEY) !== null;
+  } catch {
+    return false;
+  }
+}
+
 export function markSeen(ch: TourChapter): void {
   const next = new Set(snapshot());
   next.add(ch);

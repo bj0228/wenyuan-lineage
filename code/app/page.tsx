@@ -39,7 +39,8 @@ import { useTitles, titleForStreak } from "./world/titles";
 import UserPanel from "./scene/UserPanel";
 import TourIndexPanel from "./scene/TourIndexPanel";
 import TourLayer, { SIKU_FROM_GATES, type TourPanel, type TourAct, type SikuAsk, type WlAsk } from "./scene/TourLayer";
-import { useTourSeen, markSeen, resetTour, type TourChapter } from "./world/tour";
+import LanguageGate from "./scene/LanguageGate";
+import { useTourSeen, markSeen, resetTour, hasTourHistory, type TourChapter } from "./world/tour";
 import LineageMap from "./scene/LineageMap";
 import MarketView from "./scene/MarketView";
 import { useInventory, ITEMS, type ItemId } from "./world/inventory";
@@ -61,7 +62,7 @@ import GeoculturalMapLayer from "./scene/GeoculturalMapLayer";
 import type { WorldId, Bearing, Part } from "./world/worlds";
 import VerseCard from "./scene/VerseCard";
 import ScholarShelf from "./scene/ScholarShelf";
-import { useLangBoot, useT } from "./i18n/lang";
+import { hasSavedLang, setLang, useLangBoot, useT, type Lang } from "./i18n/lang";
 import { XMEDIA_ON } from "./world/feature-flags";
 import { useTAction, useTActionBare } from "./i18n/action";
 import LangToggle from "./i18n/LangToggle";
@@ -121,6 +122,9 @@ export default function Home() {
   const t = useT();
   const tAction = useTAction();
   const tActionBare = useTActionBare();
+  // 首次访问先选语言，再放行自动导览；旧用户凭语言偏好或导览记录直接进入。
+  const [languageGateOpen, setLanguageGateOpen] = useState(false);
+  const [onboardingReady, setOnboardingReady] = useState(false);
   const [selectedId, setSelectedId] = useState("kong");
   const [panel, setPanel] = useState<"profile" | "debate" | "canon" | "yulu">("profile");
   const [canonQuery, setCanonQuery] = useState("");
@@ -268,6 +272,21 @@ export default function Home() {
   /** 重挂两层的钥匙：本册第 1 步要站在门口讲，故开册时连 key 一起换，层内的下钻状态归零 */
   const [sikuEpoch, setSikuEpoch] = useState(0);
   const [wlEpoch, setWlEpoch] = useState(0);
+
+  useEffect(() => {
+    const firstVisit = !hasSavedLang() && !hasTourHistory();
+    const timer = window.setTimeout(() => {
+      setLanguageGateOpen(firstVisit);
+      setOnboardingReady(!firstVisit);
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
+
+  const chooseFirstLanguage = useCallback((next: Lang) => {
+    setLang(next);
+    setLanguageGateOpen(false);
+    setOnboardingReady(true);
+  }, []);
   // 市井街市浮层 + 道具/铜钱（localStorage 持久）+ 1v1 奉贽
   const [marketOpen, setMarketOpen] = useState(false);
   const [inv, invApi] = useInventory();
@@ -685,6 +704,7 @@ export default function Home() {
 
   // 延迟开讲：3D 场景与目录是异步载入的，先让这一层落定，气泡才不会指到仍在加载的空处。
   useEffect(() => {
+    if (!onboardingReady || languageGateOpen) return;
     if (tourCh) return;
     const ch = chapterDue();
     if (!ch) return;
@@ -707,7 +727,7 @@ export default function Home() {
     }
     const timer = setTimeout(() => setTourCh(ch), 900);
     return () => clearTimeout(timer);
-  }, [curWorld, sikuOpen, wlOpen, sikuScrollOpen, motifOpen, xmediaOpen, tourCh, tourSeen]);
+  }, [curWorld, sikuOpen, wlOpen, sikuScrollOpen, motifOpen, xmediaOpen, tourCh, tourSeen, onboardingReady, languageGateOpen]);
 
   /**
    * 册一横跨两层：前五步在盘面上讲总图，第六步才推门入四库，点「上一步」又退回盘面。
@@ -985,6 +1005,8 @@ export default function Home() {
     </div>
   );
 
+  const languageGate = languageGateOpen && <LanguageGate onChoose={chooseFirstLanguage} />;
+
   // 罗盘：进门第一屏。此处早返，故战国那张画布不挂载——两张三维图不同时在场。
   // 世界的时辰仍在上面那些 effect 里走着，回来时不是从头开始，这是有意的。
   if (curWorld === "compass") {
@@ -1093,6 +1115,7 @@ export default function Home() {
           />
         )}
         {curtain}
+        {languageGate}
       </>
     );
   }
@@ -1114,6 +1137,7 @@ export default function Home() {
           />
         )}
         {curtain}
+        {languageGate}
       </>
     );
   }
@@ -1573,6 +1597,7 @@ export default function Home() {
           />
         )}
       {curtain}
+      {languageGate}
     </main>
   );
 }
